@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aquaman_App">
         <activity
+            android:name=".camera_control.CameraControlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".drop_control.DropControlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings.BLEActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
